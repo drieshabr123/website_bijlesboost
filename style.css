@@ -1,4 +1,4 @@
-/* Algemene styling */
+/* General styling */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* Achtergrond en layout */
+/* Background and layout */
 body {
     background-color: #f7f7f7;
     color: #333;
@@ -35,7 +35,7 @@ main {
     line-height: 1.6;
 }
 
-/* Secties */
+/* Sections */
 section {
     margin-bottom: 1.5rem;
 }
@@ -65,6 +65,7 @@ button:hover {
     background-color: #d65b45;
 }
 
+/* Footer */
 footer {
     margin-top: auto;
     padding: 1rem;
@@ -72,4 +73,14 @@ footer {
     color: #fff;
     text-align: center;
     width: 100%;
+}
+
+/* Link styling */
+a {
+    color: #e76f51;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
